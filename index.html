@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<!--head element display things like keywords and page decription appear in search result. In my case keywords is Test Page-->
+<head>
+<meta charset="utf-8">
+	<script src="script/script.js"></script>
+	<link href="styles/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	<!-- title element appear on brower tab-->
+	<title>On Raspberry</title>
+</head>
+<!--boday element contain all content-->
+<body>
+	<!--alt attribute provide the description of the source attribute in case the path was wrong and source can not display-->
+	<img src="images/bhutan1.jpg" alt="a pagoda on the mountain in bhutan">
+	<h1 align="left">About This Page</h1> 
+		<h2 align="left">For these good things in this world</h2>
+	<p>My name is Giao Phung, I make this web as my hobby and want to share some ideas with friend</p>
+	
+	<div class="tab-menu">
+			<a class="tab active" id="tabD" onclick="ShowTab('tabD','contentD')">Introduction</a>
+			<a class="tab" id="tabA" onclick="ShowTab('tabA','contentA')">Technology</a>
+			<a class="tab" id="tabB" onclick="ShowTab('tabB', 'contentB')">Motivation</a>
+			<a class="tab" id="tabC" onclick="ShowTab('tabC','contentC')">Hobbies</a>
+	</div>
+		<div class="content-tab">
+			<div class="content-tab-item active-tab" id="contentD">
+				<p>I use the open resource on <a href="https://developer.mozilla.org">Developer Mozilla</a>
+					 to make this web. Hope you guys keep calm and just do it
+				</p>
+			</div>
+			<div class="content-tab-item" id="contentA">
+				<p>Glow’s elegantly designed in-home unit provides visual feedback. 
+					Meanwhile, a breakthrough sensor monitors your home’s electricity usage without any wiring
+					 <a href="https://meetglow.com/">Glow</a>
+					<br>Monitor your home's energy usage, set monthly spending goals, and get customizable alerts -- all in real time</br>
+					SET GOALS-Tell Glow how much you want to spend. Glow will forecast your electricity costs and help you stay on track <br>
+					RECEIVE ALERTS-Create custom notifications to alert you about abnormal usage that could result in a huge electric bill
+					<img src="images/glow.jpg" alt="glow">
+				</p>
+			</div>
+			<div class="content-tab-item" id="contentB">
+				<p>Vouloir c'est pouvoir". This is the famous sentences, it is mean wanting is being able to.
+				YES. The things is if you want something you have to rush every day for it. Pushing your in higher
+				mode of focus and determined to do your best (Adhiṭṭhāna). Setting your daily routine and follow exactly.</p>
+			</div>
+			<div class="content-tab-item" id="contentC">
+				<p><audio controls autoplay>
+					<source src="music/Mandarin and Cantonese MIX SONGS/Biệt Thoại x Hẹn Ước Mùa Đông - Leslie Cheung ft Dave Wong.mp3" type="audio/mpeg">
+				</audio>
+				<img src="images/leslie.jpg" alt="Picture of Leslie Cheung">
+				This is a famous song of Leslie Cheung. Leslie Cheung Kwok-wing[1] (simplified Chinese: 张国荣; traditional Chinese: 張國榮; 
+				Jyutping: Zoeng1 Gwok3-wing4; born Cheung Fat-chung; 12 September 1956 – 1 April 2003) was a Hong Kong-Canadian singer and actor.
+				He is considered "one of the founding fathers of Cantopop" for achieving huge success both in film and music.
+					
+				</p>
+			</div>
+		</div>
+
+</body>
+
+</html>
